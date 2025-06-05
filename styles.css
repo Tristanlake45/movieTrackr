@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dbf2c4;
+  }
+  
+  .home-page {
+    padding: 1rem;
+  }
+  
+  .home-header {
+    background-color: #3d9153;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .primary-button {
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3d9153;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    transition: background-color 0.3s, transform 0.2s ease;
+    box-shadow: 0px 4px 10px #3a332b;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .primary-button.no-underline {
+    text-decoration: none;
+  }
+  
+  .primary-button:hover {
+    background-color: #337948;
+    transform: scale(1.1);
+  }
+  
+  #movieList {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 10px auto;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-item {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  .movie-item div:last-child {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .edit-button {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .edit-button:hover {
+    background-color: #face4b;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #f7394c;
+  }
+  
+  .watched-button {
+    background-color: #3d9153;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .watched-button:hover {
+    background-color: #2e703f;
+  }
+  
+  .watched-box {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 6px;
+    margin-top: 6px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .watched-box.watched {
+    background-color: #3d9153; /* green */
+  }
+  
+  .watched-box.unwatched {
+    background-color: #dc3545; /* red */
+  }
+  
+  
+  #addGun {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  #addGun h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    box-shadow: 0 4px 8px #3a332b;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #3d9153;
+    color: white;
+  }
+  
+  #addGun form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  #addGun input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  #addGun input:focus {
+    border-color: #3d9153;
+    outline: none;
+  }
+  
+  #addGun button[type="submit"] {
+    padding: 0.75rem;
+    background-color: #3d9153;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px #3a332b;
+  }
+  
+  #addGun button[type="submit"]:hover {
+    background-color: #337948;
+  }
+  
+  .exit-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .exit-button:hover {
+    background-color: #f7394c;
+  }
+  
